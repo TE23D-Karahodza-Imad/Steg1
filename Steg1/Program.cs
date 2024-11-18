@@ -22,7 +22,7 @@
 
 
 
-//Tredje
+// Tredje
 
 // string userName = "";
 // string passWord = "";
@@ -61,22 +61,22 @@
 
 //Femte
 
-// string passWord = "";
+string passWord = "";
 
-// Console.WriteLine("Please write in your password");
-// Console.Write(">");
+Console.WriteLine("Please write in your password");
+Console.Write(">");
 
-// while (passWord != "12345")
-// {
-//     passWord = Console.ReadLine();
-//     if (passWord != "12345")
-//     {
-//         Console.WriteLine("Wrong password, try again.");
-//     }
-// }
+while (passWord != "12345")
+{
+    passWord = Console.ReadLine();
+    if (passWord != "12345")
+    {
+        Console.WriteLine("Wrong password, try again.");
+    }
+}
 
-// Console.WriteLine("Welcome!");
-// Console.ReadLine();
+Console.WriteLine("Welcome!");
+Console.ReadLine();
 
 
 
